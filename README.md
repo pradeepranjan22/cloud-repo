@@ -25,6 +25,7 @@ Table of Contents
 18. Appendix: Example Terraform Snippets & Templates
 
 1. Overview & Goals
+   
 Goal: To architect and implement a secure, scalable, and fully automated AWS Landing Zone that serves as the standardized foundation for all production workloads. The objective is to establish a governance and security framework from the outset, enabling development teams to innovate securely and at scale while minimizing operational overhead.
 
 Key Deliverables:
