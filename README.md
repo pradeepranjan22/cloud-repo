@@ -4,41 +4,25 @@ Control Tower Landing Zone (IaC) — A Comprehensive Guide for Cloud Solutions A
 Purpose: This document serves as a comprehensive, end-to-end technical reference for establishing a production-ready AWS Landing Zone. The implementation is based on AWS Control Tower and is managed entirely through Infrastructure as Code (IaC) using Terraform. Designed for storage in a version control system (like Git) and for collaborative platforms (like Confluence), it includes architectural best practices, a detailed repository structure, a modern GitOps workflow with ArgoCD, operational runbooks, and key considerations for interview scenarios.
 
 Table of Contents
-Overview & Goals
 
-Architecture (Conceptual)
-
-Assumptions & Prerequisites
-
-Recommended Tools & Versions
-
-Repo Structure (Detailed)
-
-Terraform Modules & Key Resources
-
-Bootstrap (Management Account) — Declarative Steps
-
-Deployment Workflow — Step-by-Step
-
-Networking (Hub & Spoke) — IaC
-
-Security Tooling — IaC
-
-Account Vending — Account Factory for Terraform (AFT)
-
-CI/CD (GitOps) — A Dual-Pipeline Approach
-
-Variables, Secrets & Backends
-
-Testing, Validation & Rollback
-
-Costs & Estimation Guidance
-
-Operational Runbook & Checklist
-
-Troubleshooting & FAQ
-
-Appendix: Example Terraform Snippets & Templates
+1. Overview & Goals
+2. Architecture (Conceptual)
+3. Assumptions & Prerequisites
+4. Recommended Tools & Versions
+5. Repo Structure (Detailed)
+6. Terraform Modules & Key Resources
+7. Bootstrap (Management Account) — Declarative Steps
+8. Deployment Workflow — Step-by-Step
+9. Networking (Hub & Spoke) — IaC
+10. Security Tooling — IaC
+11. Account Vending — Account Factory for Terraform (AFT)
+12. CI/CD (GitOps) — A Dual-Pipeline Approach
+13. Variables, Secrets & Backends
+14. Testing, Validation & Rollback
+15. Costs & Estimation Guidance
+16. Operational Runbook & Checklist
+17. Troubleshooting & FAQ
+18. Appendix: Example Terraform Snippets & Templates
 
 1. Overview & Goals
 Goal: To architect and implement a secure, scalable, and fully automated AWS Landing Zone that serves as the standardized foundation for all production workloads. The objective is to establish a governance and security framework from the outset, enabling development teams to innovate securely and at scale while minimizing operational overhead.
